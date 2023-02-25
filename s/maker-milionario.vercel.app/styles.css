@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif !important;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #000000;
+  background: linear-gradient(rgba(0,204,115,1) 0%, rgba(0,0,0,1) 3%);
+  min-height: 100vh;
+}
+
+body, input, button {
+  font-size: 16px;
+  width: 100%;
+  min-height: 100%;
+}
+
+button {
+  cursor: pointer;
+  outline: none !important;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.area-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.revolucao {
+  font-size: 28px;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.revolucao .destaque {
+  color: #00CC73;
+}
+
+h1 {
+  font-size: 24px;
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h1 .destaque {
+  color: #00CC73;
+}
+
+.sub {
+  color: #ffffff;
+}
+
+.go-treinamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #00CC73;
+  color: #ffffff;
+  border: 0px solid;
+  height: 80px;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 20px;
+  animation: bounce 1.5s infinite ease-in-out;
+}
+
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: #00CC73;
+  margin: 30px 0 60px;
+}
+
+.modulos {
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.modulos img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.depoimentos {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.item-video {
+  margin-right: 20px;
+}
+
+.title-video {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+iframe {
+  border: 1px solid #00CC73;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 250px;
+}
+
+.direitos {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 25px;
+}
